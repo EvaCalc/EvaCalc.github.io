@@ -4,7 +4,7 @@
       opacity: 0;
 
   }
-  100% {
+  50% {
       opacity: 1;
    }
   } 
@@ -27,7 +27,7 @@ body{
   animation-fill-mode: forwards;
 }
 h{
-    animation: fadeInAnimation ease 2s;
+    animation: h1 ease 4s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
   text-align: center;
