@@ -26,3 +26,8 @@ h{
   transform: translate(-50%, -50%);
   text-align: center; 
 }
+.Buttons {
+  left: 75%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
