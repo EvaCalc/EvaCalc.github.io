@@ -28,5 +28,9 @@ h{
 }
 #ze_butons {
 margin-left: 75%;
+  left: 75%;
+  right: 25%;
+  bottom: 40%;
+  top: 60%;
   transform: translate(-50%, -50%);
 }
