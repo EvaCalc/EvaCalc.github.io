@@ -27,6 +27,9 @@ body{
   animation-fill-mode: forwards;
 }
 h{
+    animation: fadeInAnimation ease 2s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
   text-align: center;
    color: rgb(173, 173, 173);
   font-size: 32pt;
