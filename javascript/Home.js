@@ -7,7 +7,9 @@
 yourFunction()
    }
 const yourFunction = async () => {
+	closemain();
   await delay(5000);
+	openmain();
 	alert("done?");
 };
 function closemain(){
