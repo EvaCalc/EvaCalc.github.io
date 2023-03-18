@@ -8,5 +8,6 @@ yourFunction()
    }
 const yourFunction = async () => {
   await delay(5000);
+	alert("done?");
   document.getElementById("Main").visibility="visable";
 };
