@@ -9,7 +9,4 @@ yourFunction()
 const yourFunction = async () => {
   await delay(5000);
   document.getElementById("Main").visibility="visable";
-
-  await delay(5000);
-  console.log("Waited an additional 5s");
 };
