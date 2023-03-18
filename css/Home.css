@@ -22,6 +22,8 @@
     left: 50%;
   top: 50%;
   right: 50%;
+  align-items: center; justify-content: center:
+  
   bottom: 50%;
 }
 
