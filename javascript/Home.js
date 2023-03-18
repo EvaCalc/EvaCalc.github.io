@@ -1,7 +1,7 @@
      const delay = ms => new Promise(res => setTimeout(res, ms));
 	  window.onload = function() {
  	  OnStart();
-		  document.getElementById("Main").visibility="hidden";
+		  
 	  };
    function OnStart(){ 
 yourFunction()
@@ -9,5 +9,10 @@ yourFunction()
 const yourFunction = async () => {
   await delay(5000);
 	alert("done?");
-  document.getElementById("Main").visibility="visable";
 };
+function closemain(){
+	document.getElementById("Main").visibility="hidden";
+}
+function openmain(){
+	 document.getElementById("Main").visibility="visable";
+}
