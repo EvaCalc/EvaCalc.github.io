@@ -10,5 +10,4 @@ const yourFunction = async () => {
   await delay(5000);
 document.getElementById("Main").style.opacity="1";
 	document.getElementById("loader").style.opacity="0";
-	alert("done?");
 };
