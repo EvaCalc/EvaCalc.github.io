@@ -1,20 +1,14 @@
      const delay = ms => new Promise(res => setTimeout(res, ms));
 	  window.onload = function() {
+		  document.getElementById("Main").style.opacity="0";
  	  OnStart();
-		  closemain();
 	  };
    function OnStart(){ 
 yourFunction()
    }
 const yourFunction = async () => {
-	closemain();
   await delay(5000);
-	openmain();
+document.getElementById("Main").style.opacity="1";
+	document.getElementById("loader").style.opacity="0";
 	alert("done?");
 };
-function closemain(){
-	document.getElementById("Main").style.visibility="hidden";
-}
-function openmain(){
-	 document.getElementById("Main").style.visibility="visable";
-}
