@@ -54,11 +54,25 @@ h{
   transform: translate(-50%, -50%);
   text-align: center; 
 }
-.butons {
-margin-left: 75%;
-  left: 75%;
-  right: 25%;
-  bottom: 40%;
-  top: 60%;
-  transform: translate(-50%, -50%);
+.Buttons:hover{
+     background-color: #04AA6D; /* Green background */
+}
+.Buttons {
+    background-color: #0000; /* Green background */
+  border-radius: 6px;
+  border: 2px solid gray; /* Green border */
+  color: white; /* White text */
+  padding: 10px 24px; /* Some padding */
+  cursor: pointer; /* Pointer/hand icon */
+    width: 50%;
+  display: block; /* Make the buttons appear below each other */
+    margin-top: 10px;
+  transition-duration: 0.4;
+}
+#butons {
+  left: 54%;
+  top: 40%;
+  z-index: -30;
+  position: absolute;
+    width: 65%;
 }
