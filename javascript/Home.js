@@ -14,8 +14,5 @@ document.getElementById("Main").style.opacity="1";
 };
 const interval = setInterval(function() {
    var w = window.innerWidth;
-	if (w < 1010px){
-		console.log("1010 exeded")
-	}
 	console.log(w.toString())
  }, 1000);
