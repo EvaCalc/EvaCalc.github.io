@@ -4,10 +4,18 @@
  	  OnStart();
 	  };
    function OnStart(){ 
-yourFunction()
+yourFunction();
+	   interval();
    }
 const yourFunction = async () => {
   await delay(5000);
 document.getElementById("Main").style.opacity="1";
 	document.getElementById("loader").style.opacity="0";
 };
+const interval = setInterval(function() {
+   var w = window.innerWidth;
+	if (w < 1010px){
+		console.log("1010 exeded")
+	}
+	console.log(w.toString())
+ }, 1000);
