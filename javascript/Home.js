@@ -14,7 +14,7 @@ document.getElementById("Main").style.opacity="1";
 };
 const interval = setInterval(function() {
    var w = window.innerWidth;
-	if(w.toString() < "1024"){
+	if(w < 1024){
 		document.getElementById("Header").style.font-size="31pt";
 	}
 	console.log(w.toString())
