@@ -15,7 +15,10 @@ document.getElementById("Main").style.opacity="1";
 const interval = setInterval(function() {
    var w = window.innerWidth;
 	if(w < 1024){
-		document.getElementById("Header").style.fontSize="large";
+		document.getElementById("Header").style.fontSize="xx-large";
+	}
+	if(w < 804){
+	document.getElementById("Header").style.fontSize="x-large";
 	}
 	console.log(w.toString())
  }, 100);
