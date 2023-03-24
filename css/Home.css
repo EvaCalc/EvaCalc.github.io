@@ -22,8 +22,8 @@
     left: 50%;
   top: 50%;
   right: 50%;
-  align-items: center; justify-content: center:
-  
+  align-items: center; 
+  justify-content: center;
   bottom: 50%;
 }
 
@@ -54,27 +54,13 @@ h{
   transform: translate(-50%, -50%);
   text-align: center; 
 }
-
-.Buttons {
-   background-color: rgb(40, 40, 40);
-  border-radius: 6px;
-  border: 2px solid gray; /* Green border */
-  color: white; /* White text */
-  padding: 10px 24px; /* Some padding */
-  cursor: pointer; /* Pointer/hand icon */
-    width: 100%;
-  display: block; /* Make the buttons appear below each other */
-    margin-top: 10px;
-  transition-duration: 0.4s;
-  
+#butons{
+    position: absolute;
+  top: 10%;
 }
-.Buttons:hover {
-     background-color: gray; /* Green background */
-}
-
-#butons {
-  left: 55%;
-  top: 20%;
+#HeadNav{
+  width: 100%;
+  top: 0px;
   position: absolute;
-    width: 30%;
 }
+
